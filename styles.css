@@ -5,7 +5,7 @@ body{
     height: 100%;
     margin: 0;
     padding:0;
-    background:url(img/bckgrnd2.jpeg) no-repeat fixed bottom center;
+    background:url(img/bckgrnd0.jpeg) no-repeat fixed bottom center;
     background-color: black;
     /* backdrop-filter: (12px); */
        /* }comentario */
@@ -16,3 +16,16 @@ body{
 }
 p{font-size: large;
 }
+
+.iframe{
+    max-width: 80%;
+    padding:40%;
+}
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/1.png");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
